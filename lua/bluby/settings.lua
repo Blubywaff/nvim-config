@@ -15,3 +15,9 @@ vim.opt.smartindent = true
 -- Do you even number
 vim.opt.number = true
 vim.opt.rnu = true
+
+-- Disable mouse because it's annoying
+vim.opt.mouse = ""
+
+-- Enable indent fold because it works and is easy
+vim.opt.foldmethod = "indent"
